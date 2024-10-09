@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@repo/ui": "*",
+    "@repo/ui2": "*",
     "@repo/math": "*",
     "next": "14.2.6",
     "react": "18.3.1",

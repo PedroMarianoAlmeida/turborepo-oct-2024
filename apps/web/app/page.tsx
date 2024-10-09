@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "@repo/ui/button";
+import { Card } from "@repo/ui2/card";
 import { add } from "@repo/math/add";
 import styles from "./page.module.css";
 
@@ -51,6 +52,9 @@ export default function Home() {
           Open alert
         </Button>
         <div>{add(1, 2)}</div>
+        <Card title="Card Title" href="google.com">
+          <p>Meu card</p>
+        </Card>
       </main>
       <footer className={styles.footer}>
         <a
