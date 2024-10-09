@@ -2,6 +2,7 @@ import Image from "next/image";
 
 import { Button } from "@repo/ui/button";
 import { Card } from "@repo/ui2/card";
+import { Test } from "@repo/vite-project/test";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -54,6 +55,7 @@ export default function Home() {
         <Card title="Card Title" href="google.com">
           <p>Meu card</p>
         </Card>
+        <Test />
       </main>
       <footer className={styles.footer}>
         <a
