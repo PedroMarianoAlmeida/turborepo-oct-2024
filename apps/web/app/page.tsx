@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Button } from "@repo/ui/button";
 import { Card } from "@repo/ui2/card";
 import { Test } from "@repo/vite-project/test";
+import { NextTest } from "@repo/next-shadcn/nextTest";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -52,9 +53,7 @@ export default function Home() {
         <Button appName="web" className={styles.secondary}>
           Open alert
         </Button>
-        <Card title="Card Title" href="google.com">
-          <p>Meu card</p>
-        </Card>
+        <NextTest />
         <Test />
       </main>
       <footer className={styles.footer}>
