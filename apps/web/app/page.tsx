@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "@repo/ui/button";
+import { add } from "@repo/math/add";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -49,6 +50,7 @@ export default function Home() {
         <Button appName="web" className={styles.secondary}>
           Open alert
         </Button>
+        <div>{add(1, 2)}</div>
       </main>
       <footer className={styles.footer}>
         <a
