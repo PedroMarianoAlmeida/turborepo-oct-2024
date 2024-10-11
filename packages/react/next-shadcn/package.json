@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "tsc": "tsc -p tsconfig.build.json"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.0",
@@ -29,6 +30,6 @@
     "typescript": "^5"
   },
   "exports": {
-    ".": "./src/main/index.tsx"
+    ".": "./myDist/main/index.js"
   }
 }
