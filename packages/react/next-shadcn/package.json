@@ -29,7 +29,6 @@
     "typescript": "^5"
   },
   "exports": {
-    "./nextTest": "./src/nextTest.tsx",
-    "./badge": "./src/components/ui/badge.tsx"
+    ".": "./src/main/index.tsx"
   }
 }

@@ -1,6 +1,6 @@
 import Image from "next/image";
 // import { Badge } from "@repo/next-shadcn/badge";
-import { NextTest } from "@repo/next-shadcn/nextTest";
+import { NextTest } from "@repo/next-shadcn";
 
 export default function Home() {
   return (
