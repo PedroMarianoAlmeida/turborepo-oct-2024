@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 4001",
+    "dev": "concurrently \"next dev -p 4001\" \"npm run compile-typescript\" \"npm run compile-styles\"",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "compile-typescript": "tsc -p tsconfig.build.json",
-    "compile-styles": "tailwindcss -i src/components/index.css -o myDist/index.css"
+    "compile-typescript": "tsc -p tsconfig.build.json --watch",
+    "compile-styles": "tailwindcss -i src/components/index.css -o myDist/index.css --watch"
   },
   "dependencies": {
     "react": "^18",
