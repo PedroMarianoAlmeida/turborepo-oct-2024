@@ -6,7 +6,9 @@
     "dev": "next dev -p 4001",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "compile-typescript": "tsc -p tsconfig.build.json",
+    "compile-styles": "tailwindcss -i src/components/index.css -o myDist/index.css"
   },
   "dependencies": {
     "react": "^18",
