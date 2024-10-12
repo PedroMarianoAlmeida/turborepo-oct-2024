@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "tsc": "tsc -p tsconfig.build.json"
+    "compile-typescript": "tsc -p tsconfig.build.json",
+    "compile-styles": "tailwindcss -i src/main/index.css -o myDist/main/index.css"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.0",
