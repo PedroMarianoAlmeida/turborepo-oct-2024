@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && compile-typescript && compile-styles",
     "start": "next start",
     "lint": "next lint",
     "compile-typescript": "tsc -p tsconfig.build.json",
