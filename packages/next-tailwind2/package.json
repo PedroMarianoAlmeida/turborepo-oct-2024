@@ -1,9 +1,9 @@
 {
-  "name": "next-tailwind2",
+  "name": "@repo/next-tailwind2",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 4001",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
